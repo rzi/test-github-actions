@@ -46,5 +46,7 @@ jobs:
       run: npm install
       
     - name : node version
-      run: echo "node version {{ node --version}}"
+      run: echo "node version "
+    - name : V  
+      run: node --version
       
