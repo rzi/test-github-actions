@@ -43,7 +43,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npm init 
+      run: npm install
       
     - name : node version
       run: echo "node version "
